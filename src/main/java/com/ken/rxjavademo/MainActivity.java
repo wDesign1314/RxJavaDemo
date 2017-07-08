@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void getBannerData() {
+        //test
         //定义路径
         String url = "http://news-at.zhihu.com/api/4/news/";
         Retrofit retrofit = new Retrofit.Builder()
